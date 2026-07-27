@@ -20,7 +20,7 @@ O projeto consiste em um sistema desenvolvido em C# com integração como MySQL,
 
 **PERMISSÕES**
 
-  Cadastrar produtos e categorias;
+ - Cadastrar produtos e categorias;
 
   Editar as informações de produtos e categorias;
 
