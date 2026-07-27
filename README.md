@@ -3,18 +3,18 @@
 **AUTORAS:**
 Yasmin Batista de Oliveira e Maria Eduarda.
 
-NOME DO PROJETO: LOJEC.
+**NOME DO PROJETO:** LOJEC.
 
-OBJETIVO PRINCIPAL:
+**OBJETIVO PRINCIPAL:**
 Melhorar a visualização e o gerenciamento de itens disponíveis e indisponíveis no estoque da loja, além de facilitar negociações com fornecedores.
 
-TECNOLOGIAS UTILIZADAS: 
+**TECNOLOGIAS UTILIZADAS:**
 C# e MySQL.
 
-DESCRIÇÃO DO PROJETO:
+**DESCRIÇÃO DO PROJETO:**
 O projeto consiste em um sistema desenvolvido em C# com integração como MySQL, que auxilia na organização, gerenciamento e visualização de produtos disponíveis e indisponíveis no estoque de uma loja de informática (LOJEC).
 
-REQUISITOS FUNCIONAIS:
+##**REQUISITOS FUNCIONAIS:**
 
 PERMISSÕES
   Cadastrar produtos e categorias;
