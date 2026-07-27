@@ -106,7 +106,7 @@ O projeto consiste em um sistema desenvolvido em C# com integração como MySQL,
 
 **DESEMPENHO**
 
-  Responder às consultas em até 2 segundos para bases de dados de pequeno e médio porte;
+  Responder às consultas em até 2 segundos para bases de dados de pequeno porte;
 
   Manter bom desempenho durante operações simultâneas de consulta;
   
