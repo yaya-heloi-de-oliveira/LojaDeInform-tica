@@ -1,9 +1,9 @@
 # LojaDeInformatica
 
-AUTORAS:
+**AUTORAS:**
 Yasmin Batista de Oliveira e Maria Eduarda.
 
-### NOME DO PROJETO: LOJEC.
+NOME DO PROJETO: LOJEC.
 
 OBJETIVO PRINCIPAL:
 Melhorar a visualização e o gerenciamento de itens disponíveis e indisponíveis no estoque da loja, além de facilitar negociações com fornecedores.
