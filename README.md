@@ -5,7 +5,7 @@ Feito por: Yasmin Batista de Oliveira e Maria Eduarda
 
 Loja de Informática: LojEtec
 
-Objetivo principal: Melhorar a visualização dos itens faltantes ou não no estoque da loja
+Objetivo principal: Melhorar a visualização e gerenciamento dos itens faltantes ou não no estoque da loja
 
 Tecnologias utilizadas ao decorrer do projeto: c# e MySQL
 
@@ -13,4 +13,4 @@ Descrição básica do projeto: Um sistema em c# com banco de dados integrado qu
 
 Requisitos funcionais: Login de administrador, login de funcionário, banco de dados (MySQL),
 
-Requisitos não funcionais:
+Requisitos não funcionais: 
