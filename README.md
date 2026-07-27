@@ -19,8 +19,10 @@ O projeto consiste em um sistema desenvolvido em C# com integração como MySQL,
 
 ## REQUISITOS FUNCIONAIS:
 <br>
+
 **PERMISSÕES**
 <br>
+
   Cadastrar produtos e categorias;
 
   Editar as informações de produtos e categorias;
@@ -32,9 +34,11 @@ O projeto consiste em um sistema desenvolvido em C# com integração como MySQL,
   Associar cada produto a uma categoria;
 
   Associar cada produto a um fornecedor;
+  
 <br>
 **GERENCIAMENTO DE ESTOQUE**
 <br>
+
   Registrar entradas de produtos no estoque;
 
   Registrar saídas de produtos do estoque;
