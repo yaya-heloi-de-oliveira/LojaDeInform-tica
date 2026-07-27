@@ -1,61 +1,99 @@
 # LojaDeInformatica
-Trabalho semestral - ETEC
 
-FEITO POR: Yasmin Batista de Oliveira e Maria Eduarda
+AUTORAS:
+Yasmin Batista de Oliveira e Maria Eduarda.
 
-LOJA DE INFORMÁTICA: LojEtec
+NOME DO PROJETO: LOJEC.
 
-OBJETIVO PRINCIPAL: Melhorar a visualização e gerenciamento dos itens faltantes ou não no estoque da loja  e facilitar as negociações com os fornecedores 
+OBJETIVO PRINCIPAL:
+Melhorar a visualização e o gerenciamento de itens disponíveis e indisponíveis no estoque da loja, além de facilitar negociações com fornecedores.
 
-TECNOLOGIAS UTILIZADAS: c# e MySQL
+TECNOLOGIAS UTILIZADAS: 
+C# e MySQL.
 
-DESCRIÇÃO BÁSICA DO PROJETO: Um sistema em c# com banco de dados integrado que organizará os produtos disponíveis e não disponíveis no estoque da loja
+DESCRIÇÃO DO PROJETO:
+O projeto consiste em um sistema desenvolvido em C# com integração como MySQL, que auxilia na organização, gerenciamento e visualização de produtos disponíveis e indisponíveis no estoque de uma loja de informática (LOJEC).
 
-REQUISITOS FUNCIONAIS: 
-Permissões do sistema:
-  cadastro de produtos e categorias;        
-  editar as informações de um produto ou categoria;
-  excluir produtos ou categorias;
-  consultar produtos por nome, código ou categoria;
-  associar cada produto a uma categoria;
-  associar cada produto a um fornecedor;
+REQUISITOS FUNCIONAIS:
 
-Gerenciamento do estoque:
-  registrar entradas de produtos no estoque;
-  registrar saídas de produtos do estoque;
-  atualizar a quantidade disponível após cada movimentação;
-  impedir a retirada de produtos quando a quantidade em estoque for insuficiente;
-  solicitar compra;
+PERMISSÕES
+  Cadastrar produtos e categorias;
 
-Fornecedores: 
-  cadastrar fornecedores;
-  ditar os dados dos fornecedores;
-  excluir fornecedores;
+  Editar as informações de produtos e categorias;
 
-Relatórios:
-  exibir a lista de produtos cadastrados;
-  informar produtos com estoque baixo;
+  Excluir produtos e categorias;
 
-Controle de acesso:
-Logins:
-  funcionários, fornecedores e administradores realizem login utilizando usuário e senha;
-  impedir o acesso quando as credenciais forem inválidas;
-  cadastro de funcionários;
-  cadastro de administradores;
-  ativar ou desativar usuários;
-  editar as informações dos usuários;
+  Consultar produtos por nome, código ou categoria;
 
-Permissões:
-  possuir três níveis de acesso: Funcionário, Fornecedor e Administrador;
-  administrador deve possuir acesso a todas as funcionalidades do sistema;
-  funcionário poderá consultar produtos, registrar entradas e saídas de estoque e visualizar relatórios;
-  fornecedor poderá consultar apenas os produtos vinculados ao seu cadastro e atualizar seus próprios dados;
-  apenas administradores poderão cadastrar, editar ou excluir produtos;
+  Associar cada produto a uma categoria;
+
+  Associar cada produto a um fornecedor;
+
+GERENCIAMENTO DE ESTOQUE
+  Registrar entradas de produtos no estoque;
+
+  Registrar saídas de produtos do estoque;
+
+  Atualizar a quantidade disponível após cada movimentação;
+
+  Impedir a retirada de produtos quando a quantidade no estoque for insuficiente;
+
+  Solicitar compra de produtos;
+
+FORNECEDORES
+  Cadastrar fornecedores;
+
+  Editar os dados dos fornecedores;
+
+  Excluir fornecedores;
+
+RELATÓRIOS
+  Exibir a lista de produtos cadastrados;
+
+  Informar produtos com estoque baixo;
+
+CONTROLE DE ACESSO
+  LOGIN:
+
+  Permitir que funcionários, fornecedores e administradores realizem login utilizando usuário e senha;
+
+  Impedir o acesso quando as credenciais forem inválidas;
+
+  Cadastrar funcionários;
+
+  Cadastrar administradores;
+
+  Ativar ou desativar usuários;
+
+  Editar as informações dos usuários;
+
+PERMISSÕES:
+  Possuir três níveis de acesso: Funcionário, Fornecedor e Administrador;
+
+  O administrador deve possuir acesso a todas as funcionalidades do sistema;
+
+  O funcionário poderá consultar produtos, registrar entradas e saídas de estoque e visualizar relatórios;
+
+  O fornecedor poderá consultar apenas os produtos vinculados ao seu cadastro e atualizar seus próprios dados;
+
+  Apenas administradores poderão cadastrar, editar ou excluir produtos;
+
   Apenas administradores poderão cadastrar, editar ou excluir usuários;
-  
-  
 
+REQUISITOS NÃO FUNCIONAIS
 
+DESEMPENHO
 
+  Responder às consultas em até 2 segundos para bases de dados de pequeno e médio porte;
 
-Requisitos não funcionais: 
+  Manter bom desempenho durante operações simultâneas de consulta;
+
+SEGURANÇA
+
+  Exigir autenticação antes do acesso às funcionalidades;
+
+  Armazenar as senhas dos usuários de forma segura;
+
+  Utilizar consultas parametrizadas para evitar SQL Injection;
+
+  Restringir as funcionalidades de acordo com o perfil do usuário autenticado;
