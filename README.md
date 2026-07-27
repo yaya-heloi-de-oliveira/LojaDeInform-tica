@@ -11,6 +11,23 @@ Tecnologias utilizadas ao decorrer do projeto: c# e MySQL
 
 Descrição básica do projeto: Um sistema em c# com banco de dados integrado que organizará os produtos disponíveis e não disponíveis no estoque da loja
 
-Requisitos funcionais: Login de administrador, login de funcionário, banco de dados (MySQL),
+Requisitos funcionais: 
+
+Abaixo uma tabela de requisitos funcionais e as permissões de cada tipo de login:
+
+FUNCIONALIDADES                  PERMISSÃO DE FORNECEDORES      PERMISSÕES DE FUNCIONÁRIOS        PERMISSÕES DE ADMINISTRADORES 
+    Logout                                 sim                             sim                               sim
+Alterar própria senha                      sim                             sim                               sim
+Consultar produtos                somente os fornecidos                    sim                               sim
+Cadastrar produtos                         não                             sim                               sim
+Registrar entrada de estoque               sim                             sim                               sim
+Registrar saída de estoque                 não                             sim                               sim
+Atualizar quantidade em estoque            não                             sim                               sim
+Editar produtos                            não                             não                               não
+
+
+
+
+
 
 Requisitos não funcionais: 
