@@ -1,4 +1,4 @@
-## LOJEC
+## LojEc
 
 **AUTORAS:**
 Yasmin Batista de Oliveira e Maria Eduarda.
