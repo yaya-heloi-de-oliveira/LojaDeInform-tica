@@ -14,9 +14,9 @@ C# e MySQL.
 **DESCRIÇÃO DO PROJETO:**
 O projeto consiste em um sistema desenvolvido em C# com integração como MySQL, que auxilia na organização, gerenciamento e visualização de produtos disponíveis e indisponíveis no estoque de uma loja de informática (LOJEC).
 
-**##REQUISITOS FUNCIONAIS:**
+## REQUISITOS FUNCIONAIS:
 
-PERMISSÕES
+**PERMISSÕES**
   Cadastrar produtos e categorias;
 
   Editar as informações de produtos e categorias;
@@ -29,7 +29,7 @@ PERMISSÕES
 
   Associar cada produto a um fornecedor;
 
-GERENCIAMENTO DE ESTOQUE
+**GERENCIAMENTO DE ESTOQUE**
   Registrar entradas de produtos no estoque;
 
   Registrar saídas de produtos do estoque;
@@ -40,19 +40,20 @@ GERENCIAMENTO DE ESTOQUE
 
   Solicitar compra de produtos;
 
-FORNECEDORES
+**FORNECEDORES**
   Cadastrar fornecedores;
 
   Editar os dados dos fornecedores;
 
   Excluir fornecedores;
 
-RELATÓRIOS
+**RELATÓRIOS**
   Exibir a lista de produtos cadastrados;
 
   Informar produtos com estoque baixo;
 
-CONTROLE DE ACESSO
+**CONTROLE DE ACESSO**
+
   LOGIN:
 
   Permitir que funcionários, fornecedores e administradores realizem login utilizando usuário e senha;
@@ -67,7 +68,8 @@ CONTROLE DE ACESSO
 
   Editar as informações dos usuários;
 
-PERMISSÕES:
+**PERMISSÕES:**
+
   Possuir três níveis de acesso: Funcionário, Fornecedor e Administrador;
 
   O administrador deve possuir acesso a todas as funcionalidades do sistema;
@@ -80,15 +82,15 @@ PERMISSÕES:
 
   Apenas administradores poderão cadastrar, editar ou excluir usuários;
 
-REQUISITOS NÃO FUNCIONAIS
+## REQUISITOS NÃO FUNCIONAIS
 
-DESEMPENHO
+**DESEMPENHO**
 
   Responder às consultas em até 2 segundos para bases de dados de pequeno e médio porte;
 
   Manter bom desempenho durante operações simultâneas de consulta;
 
-SEGURANÇA
+**SEGURANÇA**
 
   Exigir autenticação antes do acesso às funcionalidades;
 
