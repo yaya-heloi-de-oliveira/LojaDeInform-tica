@@ -90,8 +90,7 @@ O projeto consiste em um sistema desenvolvido em C# com integração como MySQL,
 
   Apenas administradores poderão cadastrar, editar ou excluir usuários;
 
-
-
+<br>
 
 ## REQUISITOS NÃO FUNCIONAIS
 
