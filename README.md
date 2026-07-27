@@ -14,7 +14,7 @@ C# e MySQL.
 **DESCRIÇÃO DO PROJETO:**
 O projeto consiste em um sistema desenvolvido em C# com integração como MySQL, que auxilia na organização, gerenciamento e visualização de produtos disponíveis e indisponíveis no estoque de uma loja de informática (LOJEC).
 
-##**REQUISITOS FUNCIONAIS:**
+**##REQUISITOS FUNCIONAIS:**
 
 PERMISSÕES
   Cadastrar produtos e categorias;
