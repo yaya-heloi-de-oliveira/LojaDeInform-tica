@@ -121,3 +121,42 @@ O projeto consiste em um sistema desenvolvido em C# com integração como MySQL,
   Utilizar consultas parametrizadas para evitar SQL Injection;
 
   Restringir as funcionalidades de acordo com o perfil do usuário autenticado;
+
+
+<br>
+
+**USABILIDADE E DISPONIBILIDADE**
+
+Interface simples, intuitiva e de fácil utilização.
+
+O sistema sempre disponível durante todo o horário de funcionamento da loja.
+
+O código deverá seguir boas práticas de programação.
+
+Código organizado em camadas (Interface, Lógica de Negócio e Banco de Dados), facilitando futuras manutenções.
+
+O sistema deverá permitir a inclusão de novas funcionalidades sem necessidade de reconstrução completa.
+
+Manter um padrão visual em todas as telas, utilizando cores, botões e menus consistentes para facilitar a navegação.
+
+Deverá funcionar em computadores com sistema operacional Windows 10 ou superior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
