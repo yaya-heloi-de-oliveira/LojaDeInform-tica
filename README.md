@@ -129,7 +129,7 @@ O projeto consiste em um sistema desenvolvido em C# com integração como MySQL,
 
 Interface simples, intuitiva e de fácil utilização.
 
-O sistema sempre disponível durante todo o horário de funcionamento da loja.
+Sistema sempre disponível durante todo o horário de funcionamento da loja.
 
 O código deverá seguir boas práticas de programação.
 
