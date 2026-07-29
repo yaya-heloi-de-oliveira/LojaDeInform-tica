@@ -3,6 +3,8 @@
 **AUTORAS:**
 Yasmin Batista de Oliveira e Maria Eduarda.
 
+**TEMA ESCOLHIDO:** Loja de Informática.
+
 **NOME DO PROJETO:** LojEc.
 
 **OBJETIVO PRINCIPAL:**
