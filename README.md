@@ -14,7 +14,7 @@ Melhorar a visualização e o gerenciamento de itens disponíveis e indisponíve
 C# e MySQL.
 
 **DESCRIÇÃO DO PROJETO:**
-O projeto consiste em um sistema desenvolvido em C# com integração como MySQL, que auxilia na organização, gerenciamento e visualização de produtos disponíveis e indisponíveis no estoque de uma loja de informática (LOJEC).
+O projeto consiste em um sistema desenvolvido em C# com integração com o MySQL, que auxilia na organização, gerenciamento e visualização de produtos disponíveis e indisponíveis no estoque de uma loja de informática (LOJEC).
 
 <br>
 
