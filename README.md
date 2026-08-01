@@ -1,163 +1,155 @@
-## LojEc
+# LojEc
+- Sistema de gerenciamento de uma loja de informática
+  
+## AUTORAS:
+- Yasmin Batista de Oliveira
+-  Maria Eduarda.
 
-**AUTORAS:**
-Yasmin Batista de Oliveira e Maria Eduarda.
+## TEMA ESCOLHIDO:
+- Loja de Informática.
 
-**TEMA ESCOLHIDO:** Loja de Informática.
+## NOME DO PROJETO: 
+- LojEc.
 
-**NOME DO PROJETO:** LojEc.
+## OBJETIVO PRINCIPAL:
+- Melhorar a visualização e o gerenciamento de itens disponíveis e indisponíveis no estoque da loja,
+ além de facilitar negociações com fornecedores.
 
-**OBJETIVO PRINCIPAL:**
-Melhorar a visualização e o gerenciamento de itens disponíveis e indisponíveis no estoque da loja, além de facilitar negociações com fornecedores.
+## TECNOLOGIAS UTILIZADAS:
+- C# 
+- MySQL.
 
-**TECNOLOGIAS UTILIZADAS:**
-C# e MySQL.
+## DESCRIÇÃO DO PROJETO:
+O projeto consiste em um sistema desenvolvido em C# com integração com o MySQL, que auxilia na organização, gerenciamento e visualização de produtos disponíveis e 
+indisponíveis no estoque de uma loja de informática (LOJEC).
 
-**DESCRIÇÃO DO PROJETO:**
-O projeto consiste em um sistema desenvolvido em C# com integração com o MySQL, que auxilia na organização, gerenciamento e visualização de produtos disponíveis e indisponíveis no estoque de uma loja de informática (LOJEC).
+<br>
+<br>
+
+# REQUISITOS FUNCIONAIS:
 
 <br>
 
-## REQUISITOS FUNCIONAIS:
+## PERMISSÕES
 
-<br>
+ - Cadastrar produtos e categorias;
 
-**PERMISSÕES**
+ - Editar as informações de produtos e categorias;
 
-  Cadastrar produtos e categorias;
+ - Excluir produtos e categorias;
 
-  Editar as informações de produtos e categorias;
+ - Consultar produtos por nome, código ou categoria;
 
-  Excluir produtos e categorias;
+ - Associar cada produto a uma categoria;
 
-  Consultar produtos por nome, código ou categoria;
-
-  Associar cada produto a uma categoria;
-
-  Associar cada produto a um fornecedor;
+ - Associar cada produto a um fornecedor;
   
 <br>
 
-**GERENCIAMENTO DE ESTOQUE**
+## GERENCIAMENTO DE ESTOQUE
 
-  Registrar entradas de produtos no estoque;
+ - Registrar entradas de produtos no estoque;
 
-  Registrar saídas de produtos do estoque;
+ - Registrar saídas de produtos do estoque;
 
-  Atualizar a quantidade disponível após cada movimentação;
+ - Atualizar a quantidade disponível após cada movimentação;
 
-  Impedir a retirada de produtos quando a quantidade no estoque for insuficiente;
+ - Impedir a retirada de produtos quando a quantidade no estoque for insuficiente;
 
-  Solicitar compra de produtos;
+ - Solicitar compra de produtos;
   
 <br>
 
-**FORNECEDORES**
+## FORNECEDORES
 
-  Cadastrar fornecedores;
+ - Cadastrar fornecedores;
 
-  Editar os dados dos fornecedores;
+ - Editar os dados dos fornecedores;
 
-  Excluir fornecedores;
-  
-  <br>
-  
-**RELATÓRIOS**
-
-  Exibir a lista de produtos cadastrados;
-
-  Informar produtos com estoque baixo;
-  
-<br>
-
-  **LOGIN**
-
-  Permitir que funcionários, fornecedores e administradores realizem login utilizando usuário e senha;
-
-  Impedir o acesso quando as credenciais forem inválidas;
-
-  Cadastrar funcionários;
-
-  Cadastrar administradores;
-
-  Ativar ou desativar usuários;
-
-  Editar as informações dos usuários;
-  
-<br>
-
-**PERMISSÕES**
-
-  Possuir três níveis de acesso: Funcionário, Fornecedor e Administrador;
-
-  O administrador deve possuir acesso a todas as funcionalidades do sistema;
-
-  O funcionário poderá consultar produtos, registrar entradas e saídas de estoque e visualizar relatórios;
-
-  O fornecedor poderá consultar apenas os produtos vinculados ao seu cadastro e atualizar seus próprios dados;
-
-  Apenas administradores poderão cadastrar, editar ou excluir produtos;
-
-  Apenas administradores poderão cadastrar, editar ou excluir usuários;
-
-<br>
-
-## REQUISITOS NÃO FUNCIONAIS
-
-<br>
-
-**DESEMPENHO**
-
-  Responder às consultas em até 2 segundos para bases de dados de pequeno porte;
-
-  Manter bom desempenho durante operações simultâneas de consulta;
+ - Excluir fornecedores;
   
   <br>
   
-**SEGURANÇA**
+## RELATÓRIOS
 
-  Exigir autenticação antes do acesso às funcionalidades;
+ - Exibir a lista de produtos cadastrados;
 
-  Armazenar as senhas dos usuários de forma segura;
+ - Informar produtos com estoque baixo;
+  
+<br>
 
-  Utilizar consultas parametrizadas para evitar SQL Injection;
+  ## LOGIN
 
-  Restringir as funcionalidades de acordo com o perfil do usuário autenticado;
+ - Permitir que funcionários, fornecedores e administradores realizem login utilizando usuário e senha;
+
+ - Impedir o acesso quando as credenciais forem inválidas;
+
+ - Cadastrar funcionários;
+
+ - Cadastrar administradores;
+
+ - Ativar ou desativar usuários;
+
+ - Editar as informações dos usuários;
+  
+<br>
+
+## PERMISSÕES
+
+ - Possuir três níveis de acesso: Funcionário, Fornecedor e Administrador;
+
+ - O administrador deve possuir acesso a todas as funcionalidades do sistema;
+
+ - O funcionário poderá consultar produtos, registrar entradas e saídas de estoque e visualizar relatórios;
+
+ - O fornecedor poderá consultar apenas os produtos vinculados ao seu cadastro e atualizar seus próprios dados;
+
+ - Apenas administradores poderão cadastrar, editar ou excluir produtos;
+
+ - Apenas administradores poderão cadastrar, editar ou excluir usuários;
+
+<br>
+<br>
+
+# REQUISITOS NÃO FUNCIONAIS
+
+<br>
+
+## DESEMPENHO
+
+ - Responder às consultas em até 2 segundos para bases de dados de pequeno porte;
+
+ - Manter bom desempenho durante operações simultâneas de consulta;
+  
+  <br>
+  
+## SEGURANÇA
+
+ - Exigir autenticação antes do acesso às funcionalidades;
+
+ - Armazenar as senhas dos usuários de forma segura;
+
+ - Utilizar consultas parametrizadas para evitar SQL Injection;
+
+ - Restringir as funcionalidades de acordo com o perfil do usuário autenticado;
 
 
 <br>
 
-**USABILIDADE E DISPONIBILIDADE**
+## USABILIDADE E DISPONIBILIDADE
+- Interface simples, intuitiva e de fácil utilização.
 
-Interface simples, intuitiva e de fácil utilização.
+- Sistema sempre disponível durante todo o horário de funcionamento da loja.
 
-Sistema sempre disponível durante todo o horário de funcionamento da loja.
+- O código deverá seguir boas práticas de programação.
 
-O código deverá seguir boas práticas de programação.
+- Código organizado em camadas (Interface, Lógica de Negócio e Banco de Dados), facilitando futuras manutenções.
 
-Código organizado em camadas (Interface, Lógica de Negócio e Banco de Dados), facilitando futuras manutenções.
+- O sistema deverá permitir a inclusão de novas funcionalidades sem necessidade de reconstrução completa.
 
-O sistema deverá permitir a inclusão de novas funcionalidades sem necessidade de reconstrução completa.
+- Manter um padrão visual em todas as telas, utilizando cores, botões e menus consistentes para facilitar a navegação.
 
-Manter um padrão visual em todas as telas, utilizando cores, botões e menus consistentes para facilitar a navegação.
-
-Deverá funcionar em computadores com sistema operacional Windows 10 ou superior.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Deverá funcionar em computadores com sistema operacional Windows 10 ou superior.
 
 
 
