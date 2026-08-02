@@ -161,6 +161,7 @@ indisponíveis no estoque de uma loja de informática (LOJEC).
 <img src="https://github.com/user-attachments/assets/38e1fee0-6b1a-4a63-9a9c-51d393c01723" width="700px"/>
 </div>
 
+# Diagrama de Entidade-Relacionamento
 <div aling="center">
 <img src="https://github.com/user-attachments/assets/4297683c-b54e-43c3-8707-fc25a566dd8a" width="700px"/>
 </div>
