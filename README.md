@@ -152,5 +152,12 @@ indisponíveis no estoque de uma loja de informática (LOJEC).
 - Deverá funcionar em computadores com sistema operacional Windows 10 ou superior.
 
 
+<br>
+<br>
+<br>
 
+#Diagrama de Caso e Uso
+<div aling="center">
+<img src="https://github.com/yaya-heloi-de-oliveira/LojaDeInform-tica/issues/1#issue-5042837629" width="700px"/>
+</div>
 
