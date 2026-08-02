@@ -156,8 +156,8 @@ indisponíveis no estoque de uma loja de informática (LOJEC).
 <br>
 <br>
 
-#Diagrama de Caso e Uso
+# Diagrama de Caso e Uso
 <div aling="center">
-<img src="https://github.com/yaya-heloi-de-oliveira/LojaDeInform-tica/issues/1#issue-5042837629" width="700px"/>
+<img src="https://github.com/user-attachments/assets/38e1fee0-6b1a-4a63-9a9c-51d393c01723" width="700px"/>
 </div>
 
