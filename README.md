@@ -1,4 +1,4 @@
-# LojEc
+# LojEtec
 - Sistema de gerenciamento de uma loja de informática
   
 ## AUTORAS:
