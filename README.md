@@ -9,7 +9,7 @@
 - Loja de Informática.
 
 ## NOME DO PROJETO: 
-- LojEc.
+- LojEtec.
 
 ## OBJETIVO PRINCIPAL:
 - Melhorar a visualização e o gerenciamento de itens disponíveis e indisponíveis no estoque da loja,
